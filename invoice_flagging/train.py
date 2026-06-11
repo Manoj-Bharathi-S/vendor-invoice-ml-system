@@ -36,7 +36,7 @@ TARGET = "flag_invoice"
 def main():
     logger.info("Initializing invoice flagging pipeline...")
     db_path = "data/inventory.db"
-    model_dir = Path("../models")
+    model_dir = Path("models")
     model_dir.mkdir(exist_ok=True)
     logger.info("Output directory checked/created at: %s", model_dir)
 
